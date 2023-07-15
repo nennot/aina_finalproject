@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(image.jpg);
+    background-size: cover;
+}
+.movie-container{
+    width: 80%;
+    height: auto;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    background: #000;
+}
+img{
+    float: right;
+}
